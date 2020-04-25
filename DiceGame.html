@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">   </script>
+    <script>
+
+setInterval(function(){
+    var x = Math.round( Math.random() * 255 );
+    var y = Math.round( Math.random() * 255 );
+    var z = Math.round( Math.random() * 255 );
+    var bg = "background:rgb("+x+", "+y+", "+z+");";
+    var element = document.getElementById("e",);
+    element.style = bg;
+}, 500);
+setInterval(function(){
+    var x = Math.round( Math.random() * 255 );
+    var y = Math.round( Math.random() * 255 );
+    var z = Math.round( Math.random() * 255 );
+    var bg = "background:rgb("+x+", "+y+", "+z+");";
+    var element = document.getElementById("c",);
+    element.style = bg;
+}, 500);
+setInterval(function(){
+    var x = Math.round( Math.random() * 255 );
+    var y = Math.round( Math.random() * 255 );
+    var z = Math.round( Math.random() * 255 );
+    var bg = "background:rgb("+x+", "+y+", "+z+");";
+    var element = document.getElementById("cc");
+    element.style = bg;
+}, 500);
+setInterval(function(){
+    var x = Math.round( Math.random() * 255 );
+    var y = Math.round( Math.random() * 255 );
+    var z = Math.round( Math.random() * 255 );
+    var bg = "background:rgb("+x+", "+y+", "+z+");";
+    var element = document.getElementById("p1");
+    element.style = bg;
+}, 7000);
+
+
+        /*
+        JavaScript dice (by JavaScript Kit, http://javascriptkit.com)
+        Over 200+ free scripts here!
+        */
+        
+        //preload the six images first
+        var face1=new Image()
+        face1.src="red1.png"
+        var face2=new Image()
+        face2.src="red2.png"
+        var face3=new Image()
+        face3.src="red3.png"
+        var face4=new Image()
+        face4.src="red4.png"
+        var face5=new Image()
+        face5.src="red5.png"
+        var face6=new Image()
+        face6.src="red6.png"
+        </script>
+  
+  <style>
+    #p1{
+    height:608px;
+    width: 1367px;
+    border: 2px solid red;
+    background: rgb(76, 76, 230);
+    z-index: 0;
+  
+  position: absolute;
+  }
+    h1{
+        font-size: 60px;
+        color: red;
+    }
+    #p2{
+      height: 500px;
+    width: 1250px;
+    border: 2px solid rgb(111, 0, 255);
+    background: black;
+    z-index: 0;
+  position: absolute;
+  border-radius: 10%;
+  left: 55px;
+  top: 50px;
+  }
+  #p7{
+    height: 60px;
+    width: 300px;
+    border-radius: 50%;
+    background: black;
+    z-index: 1;
+  position: absolute;
+  left: 230px;
+  top: 60px;
+  }
+  #p8{
+    height: 60px;
+    width: 180px;
+    border-radius: 10%;
+    background: black;
+    z-index: 1;
+  position: absolute;
+  left: 1000px;
+  top: 60px;
+  }
+    #a{
+      height: 350px;
+    width: 380px;
+    border-radius: 10%;
+    border: 2px solid rgb(255, 145, 0);
+    background: black;
+    z-index: 1;
+  position: absolute;
+  left: 110px;
+  top: 140px;
+    }
+    #b{
+      height: 350px;
+    width: 380px;
+    border-radius: 10%;
+    border: 2px solid rgb(255, 145, 0);
+    background: black;
+    z-index: 1;
+  position: absolute;
+  left: 860px;
+  top: 140px;
+    }
+    #c{  height: 45px;
+    width: 100px;
+    border-radius: 10%;
+    border: 2px solid rgb(153, 0, 255);
+    background: black;
+    z-index: 0;
+  position: absolute;
+  left: 750px;
+  top: 480px;
+    }
+    #dice{  height: 45px;
+    width: 130px;
+    border-radius: 10%;
+    border: 2px solid rgb(153, 0, 255);
+    background: black;
+    z-index: 0;
+  position: absolute;
+  left: 615px;
+  top: 480px;
+    }
+    #home{
+        background-color: black;
+        height: 800px;
+        width: 1500px;
+
+    }
+    #ho{
+           height: 390px;
+           width: 700px;
+      z-index: 1;
+      top: 130px;
+      left: 370px;
+          background-color:silver;
+      position: absolute;
+     
+    }
+    #hom{
+           
+           z-index: 1;
+           top: 480px;
+           left: 600px;
+           position: absolute;
+          
+         }
+    #cc{
+
+        height: 60px;
+        width: 60px;
+        border: 4px solid rebeccapurple;
+        border-radius: 20%;
+        z-index: 0;
+      top: 460px;
+      left: 548px;
+      position: absolute;
+      background: springgreen;
+    }
+    #i{
+      height: 250px;
+    width: 250px;
+    border-radius: 10%;
+    border: 2px solid rgb(255, 0, 179);
+    background: black;
+    z-index: 1;
+  position: absolute;
+  left: 550px;
+  top: 150px;
+  
+    }
+    img:active{
+        transform:translateX(10px);
+    }
+   
+    #e{
+      border-radius: 10%;
+    height: 47px;
+    width: 400px;
+    border: 2px solid rgb(9, 255, 0);
+    background: black;
+    z-index: 0;
+  position: absolute;
+  left: 480px;
+    }
+    #ee{
+        height: 110px;
+        width: 110px;
+        border: 2px solid pink;
+      z-index: 1;
+      top: 150px;
+      left: 700px;
+      border-radius: 25%;
+      background-color:silver;
+      position: absolute;
+    }
+    #a1,#a2{
+        height: 100px;
+        width: 300px;
+        border: 2px solid rebeccapurple;
+    }
+  
+    #p{
+      height: 670px;
+        width: 50px;
+        border: 1px solid  gray;
+      z-index: 1;
+      top: 0px;
+      left: 1px;
+      border-radius: 10%;
+          background:radial-gradient(blue,pink,yellow,green) ;
+    
+      position: absolute;
+display: none;
+    }
+    #pp{
+      height: 670px;
+        width: 50px;
+        border: 1px solid  gray;
+      z-index: 1;
+      top: 0px;
+      left: 1305px;
+      border-radius: 10%;
+      background:radial-gradient(blue,pink,yellow,green) ;
+     position: absolute;
+display: none;
+    }
+    #ma{
+      height: 570px;
+        width: 460px;
+        border: 1px solid purple;
+      z-index: 1;
+      top: 0px;
+      left: 450px;
+      border-radius: 2%;
+      background:radial-gradient(blue,purple,pink,yellow,black,green) ;
+            display: none;
+      position: absolute;
+      
+    }
+    #n{
+      height: 570px;
+        width: 460px;
+        border: 1px solid  gray;
+      z-index: 1;
+      top: 0px;
+      left: 450px;
+      border-radius: 2%;
+ 
+      display: none;
+      position: absolute;
+      background:radial-gradient(blue,purple,pink,yellow,black,green) ;
+    }
+
+   
+    #ma2{
+padding-top: 150px;
+    }
+    #na2{
+padding-top: 20px;
+
+    }
+     
+    
+    </style>
+</head>
+<body onload="home()" style="position: fixed;">
+  <div id="home">
+    <img id="ho" src="gif3.gif" >
+
+  <div id="hom" style="width: 350px;margin: auto;font-size: 40px;color: rgb(14, 65, 160);font-style: italic;"><marquee behavior="" direction="">L o a d i n g.......</marquee></div>
+  </div >
+  
+  <div id="test" style="display: none;">  
+  
+  <div id="p1">
+      <div  id="pp"><center><h2>C </h2> <h2>O</h2><h2>N</h2><h2>G</h2><h2>R</h2><h2>A</h2><h2>T</h2><h2>U</h2><h2>L</h2><h2>A</h2><h2>T</h2><h2>I</h2><h2>O</h2><h2>N</h2><h2>S</h2></center></div>
+      <div  id="p"> <center><h2>C </h2> <h2>O</h2><h2>N</h2><h2>G</h2><h2>R</h2><h2>A</h2><h2>T</h2><h2>U</h2><h2>L</h2><h2>A</h2><h2>T</h2><h2>I</h2><h2>O</h2><h2>N</h2><h2>S</h2></center> </div>
+  </div>
+  <div id="p2"></div>
+  <div id="p7" style="color:red;font-size: 25px;"><h2>Player 1</h2></div>
+<div id="p8"  style="color:red;font-size: 25px;"><h2>Player 2</h2></div>
+
+        <div id="a">    
+            <center> <h3 style="font-size: 50px;color: rgb(9, 255, 0);">SCORE</h3></center>
+            <center> <h3  id="sc" style="font-size: 50px;font-size: 35px;color: rgb(9, 255, 0);font-family: Georgia, 'Times New Roman', Times, serif;">00</h3></center>
+            <center><div id="a1"><h2 style="color:green;">Status</h2><h2 id="a5" style="font-size: 50px;font-size: 25px;color: rgb(9, 255, 0);"> </h2></div></center>                                                                      
+  
+</div>
+   <div id="b">
+      <center> <h3 style="font-size: 50px;color: rgb(9, 255, 0);">SCORE</h3></center>
+      <center> <h3  id="sc1" style="font-size: 50px;font-size: 35px;color: rgb(9, 255, 0);font-family: Georgia, 'Times New Roman', Times, serif;">00</h3></center>
+<center><div id="a2"><h2 style="color:green;">Status</h2><h2 id="a4" style="font-size: 76px;font-size: 25px;color: rgb(9, 255, 0);"> </h2></div></center>
+
+</div>
+
+<div id="d"><img  id="i" src="d12.png" name="mydice" ></div>
+
+<div id="e"><center><h2 id="a7"> </h2></center></div>
+<!-- <div id="ee"><center ><h3 style="margin: auto;">CURRENT VALUE<br><h2 id="eee">00</h2></h3></center></div> -->
+<div id="ma"><div id="ma1"><center><h2 style="color: red;font-size: 50px;font-family: Georgia, 'Times New Roman', Times, serif;" id="ma2"> WELCOME CHAMPION  </h2></center> </div></div>
+<div id="n"><div ><center><h2 style="color: red;font-size: 60px;font-family: Georgia, 'Times New Roman', Times, serif;" id="na2">  </h2></center> </div></div>
+<div id="c"><center><h3 style="margin: auto;">Pass</h3></center></div>
+<div id="dice"><center><h3 style="margin: auto;color: rgb(9, 255, 0);"> ROLL DICE</h3></center></div>
+<div id="cc"><center><h3 style="margin: auto;">New game</h3></center></div>
+</div>
+
+</body>
+<script src="DiceGame.js"></script>
+</html>
